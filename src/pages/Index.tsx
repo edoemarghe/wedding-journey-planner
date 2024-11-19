@@ -26,15 +26,21 @@ const Index = () => {
 
   return (
     <div className="min-h-screen pt-16">
-      <div className="h-[80vh] bg-wedding-rose/20 flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-5xl md:text-7xl font-display mb-6">
+      <div 
+        className="h-[80vh] flex items-center justify-center bg-cover bg-center relative"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="text-center relative z-10">
+          <h1 className="text-5xl md:text-7xl font-display mb-6 text-white">
             Edoardo & Margherita
           </h1>
-          <p className="text-xl md:text-2xl mb-12 font-light">
+          <p className="text-xl md:text-2xl mb-12 font-light text-white">
             5 Luglio 2025
           </p>
-          <div className="flex justify-center gap-8 text-wedding-gold mb-12">
+          <div className="flex justify-center gap-8 text-white mb-12">
             <div>
               <div className="text-4xl font-display">{days}</div>
               <div className="text-sm">GIORNI</div>
