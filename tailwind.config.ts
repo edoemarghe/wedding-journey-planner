@@ -19,6 +19,11 @@ export default {
     },
     extend: {
       colors: {
+        wedding: {
+          rose: "#F5E6E8",
+          sage: "#D4E6B5",
+          gold: "#DAA520",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -52,6 +57,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      fontFamily: {
+        display: ["Playfair Display", "serif"],
+        body: ["Lato", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
