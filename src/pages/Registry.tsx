@@ -4,6 +4,14 @@ const Registry = () => {
   return (
     <div className="min-h-screen pt-24 bg-wedding-rose/10">
       <div className="page-container">
+        <div className="mb-12">
+          <img 
+            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+            alt="Mare cristallino"
+            className="w-full h-[300px] object-cover rounded-lg shadow-lg mb-12"
+          />
+        </div>
+        
         <h1 className="section-title">Lista Nozze</h1>
         
         <div className="max-w-2xl mx-auto text-center">
