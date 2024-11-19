@@ -9,6 +9,7 @@ import Program from "./pages/Program";
 import Accommodation from "./pages/Accommodation";
 import Registry from "./pages/Registry";
 import RSVP from "./pages/RSVP";
+import BankDetails from "./pages/BankDetails";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/accommodation" element={<Accommodation />} />
           <Route path="/registry" element={<Registry />} />
           <Route path="/rsvp" element={<RSVP />} />
+          <Route path="/bank-details" element={<BankDetails />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
