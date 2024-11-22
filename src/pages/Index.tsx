@@ -26,20 +26,20 @@ const Index = () => {
 
   const photos = [
     {
-      url: "https://images.unsplash.com/photo-1583939003579-730e3918a45a",
-      caption: "Il nostro primo viaggio insieme"
+      url: "/lovable-uploads/18c18510-bdcd-46ee-837a-14ae0d48cc4f.png",
+      caption: "Il nostro viaggio in Vietnam"
     },
     {
-      url: "https://images.unsplash.com/photo-1519741497674-611481863552",
-      caption: "La nostra prima foto"
+      url: "/lovable-uploads/d0d57ed9-fcaf-4e8a-b715-ca16eea762cb.png",
+      caption: "La nostra avventura in Marocco"
     },
     {
-      url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486",
-      caption: "La proposta"
+      url: "/lovable-uploads/d2071883-5d10-4d6d-bec2-a95cca2ddb9f.png",
+      caption: "Esplorando il Sudafrica"
     },
     {
-      url: "https://images.unsplash.com/photo-1529634597503-139d3726fed5",
-      caption: "Le nostre avventure"
+      url: "/lovable-uploads/97df5096-0ab3-464e-be21-a3f2965b7511.png",
+      caption: "Il nostro volo in elicottero"
     }
   ];
 
