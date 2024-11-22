@@ -42,10 +42,10 @@ const Index = () => {
       <div 
         className="h-[80vh] flex items-center justify-center bg-cover bg-center relative"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21')",
+          backgroundImage: "url('/lovable-uploads/6b4ecc9c-ed22-4edd-8017-f8d413e86368.png')",
         }}
       >
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/20" />
         <div className="text-center relative z-10">
           <h1 className="text-5xl md:text-7xl font-display mb-6 text-white">
             Edoardo & Margherita
