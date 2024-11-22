@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const Index = () => {
   const [days, setDays] = useState(0);
@@ -77,54 +78,34 @@ const Index = () => {
 
       <div className="page-container">
         <h2 className="section-title">La Nostra Storia</h2>
-        <div className="max-w-4xl mx-auto space-y-12">
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="md:w-1/2">
-              <img src={photos[0]} alt="" className="rounded-lg shadow-lg w-full" />
-            </div>
-            <div className="md:w-1/2">
-              <p className="text-lg leading-relaxed text-gray-700">
-                La nostra storia è iniziata nel 2018, quando ci siamo incontrati per la prima volta. 
-                Sotto le luci di Natale di quell'anno magico, è sbocciato l'amore che ci ha uniti fino ad oggi.
-              </p>
-            </div>
-          </div>
+        <div className="max-w-4xl mx-auto mb-16">
+          <p className="text-lg leading-relaxed text-gray-700 mb-8">
+            La nostra storia è iniziata nel 2018, quando ci siamo incontrati per la prima volta. 
+            Sotto le luci di Natale di quell'anno magico, è sbocciato l'amore che ci ha uniti fino ad oggi.
+            Fin dall'inizio, abbiamo scoperto di condividere le stesse passioni: l'amore per i viaggi 
+            e la buona cucina ci ha portato a esplorare il mondo insieme. Ma la cosa più bella è sempre stata 
+            condividere ogni momento con i nostri amici, che hanno reso ogni avventura ancora più speciale.
+          </p>
+        </div>
 
-          <div className="flex flex-col md:flex-row-reverse items-center gap-8">
-            <div className="md:w-1/2">
-              <img src={photos[1]} alt="" className="rounded-lg shadow-lg w-full" />
-            </div>
-            <div className="md:w-1/2">
-              <p className="text-lg leading-relaxed text-gray-700">
-                Fin dall'inizio, abbiamo scoperto di condividere le stesse passioni: l'amore per i viaggi 
-                e la buona cucina ci ha portato a esplorare il mondo insieme.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <img src={photos[2]} alt="" className="rounded-lg shadow-lg w-full" />
-            <img src={photos[3]} alt="" className="rounded-lg shadow-lg w-full" />
-            <img src={photos[4]} alt="" className="rounded-lg shadow-lg w-full" />
-          </div>
-
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="md:w-1/2">
-              <img src={photos[5]} alt="" className="rounded-lg shadow-lg w-full" />
-            </div>
-            <div className="md:w-1/2">
-              <p className="text-lg leading-relaxed text-gray-700">
-                Ma la cosa più bella è sempre stata condividere ogni momento con i nostri amici, 
-                che hanno reso ogni avventura ancora più speciale.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <img src={photos[6]} alt="" className="rounded-lg shadow-lg w-full" />
-            <img src={photos[7]} alt="" className="rounded-lg shadow-lg w-full" />
-            <img src={photos[8]} alt="" className="rounded-lg shadow-lg w-full" />
-          </div>
+        <div className="max-w-5xl mx-auto">
+          <Carousel className="w-full">
+            <CarouselContent>
+              {photos.map((photo, index) => (
+                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-1">
+                    <img 
+                      src={photo} 
+                      alt="" 
+                      className="rounded-lg shadow-lg w-full h-64 object-cover"
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
         </div>
       </div>
     </div>
