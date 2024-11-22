@@ -25,42 +25,15 @@ const Index = () => {
   }, []);
 
   const photos = [
-    {
-      url: "/lovable-uploads/64d3dca6-fc2b-4fcb-a25a-f39e45b53df5.png",
-      caption: "Safari in Africa"
-    },
-    {
-      url: "/lovable-uploads/0ba48ebd-1618-46c5-9227-3f99a0cf60c2.png",
-      caption: "Avventure sulla neve in Finlandia"
-    },
-    {
-      url: "/lovable-uploads/a7be54d1-fb14-4b22-8f9c-da22a7c42199.png",
-      caption: "Aurora boreale in Lapponia"
-    },
-    {
-      url: "/lovable-uploads/a743b6b1-cfa0-43a2-9587-edd1cb50e3f1.png",
-      caption: "In barca nella baia di Ha Long"
-    },
-    {
-      url: "/lovable-uploads/b7395aea-e2c0-4deb-8560-5f8f1b2261c8.png",
-      caption: "Tra le risaie del Vietnam"
-    },
-    {
-      url: "/lovable-uploads/18c18510-bdcd-46ee-837a-14ae0d48cc4f.png",
-      caption: "Il nostro viaggio in Vietnam"
-    },
-    {
-      url: "/lovable-uploads/d0d57ed9-fcaf-4e8a-b715-ca16eea762cb.png",
-      caption: "La nostra avventura in Marocco"
-    },
-    {
-      url: "/lovable-uploads/d2071883-5d10-4d6d-bec2-a95cca2ddb9f.png",
-      caption: "Esplorando il Sudafrica"
-    },
-    {
-      url: "/lovable-uploads/97df5096-0ab3-464e-be21-a3f2965b7511.png",
-      caption: "Il nostro volo in elicottero"
-    }
+    "/lovable-uploads/64d3dca6-fc2b-4fcb-a25a-f39e45b53df5.png",
+    "/lovable-uploads/0ba48ebd-1618-46c5-9227-3f99a0cf60c2.png",
+    "/lovable-uploads/a7be54d1-fb14-4b22-8f9c-da22a7c42199.png",
+    "/lovable-uploads/a743b6b1-cfa0-43a2-9587-edd1cb50e3f1.png",
+    "/lovable-uploads/b7395aea-e2c0-4deb-8560-5f8f1b2261c8.png",
+    "/lovable-uploads/18c18510-bdcd-46ee-837a-14ae0d48cc4f.png",
+    "/lovable-uploads/d0d57ed9-fcaf-4e8a-b715-ca16eea762cb.png",
+    "/lovable-uploads/d2071883-5d10-4d6d-bec2-a95cca2ddb9f.png",
+    "/lovable-uploads/97df5096-0ab3-464e-be21-a3f2965b7511.png"
   ];
 
   return (
@@ -104,23 +77,54 @@ const Index = () => {
 
       <div className="page-container">
         <h2 className="section-title">La Nostra Storia</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {photos.map((photo, index) => (
-            <div key={index} className="group relative overflow-hidden rounded-lg shadow-lg">
-              <div className="aspect-w-4 aspect-h-3">
-                <img
-                  src={photo.url}
-                  alt={photo.caption}
-                  className="object-cover w-full h-full transform transition-transform duration-300 group-hover:scale-110"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-white p-4 font-display text-lg">
-                  {photo.caption}
-                </p>
-              </div>
+        <div className="max-w-4xl mx-auto space-y-12">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="md:w-1/2">
+              <img src={photos[0]} alt="" className="rounded-lg shadow-lg w-full" />
             </div>
-          ))}
+            <div className="md:w-1/2">
+              <p className="text-lg leading-relaxed text-gray-700">
+                La nostra storia è iniziata nel 2018, quando ci siamo incontrati per la prima volta. 
+                Sotto le luci di Natale di quell'anno magico, è sbocciato l'amore che ci ha uniti fino ad oggi.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row-reverse items-center gap-8">
+            <div className="md:w-1/2">
+              <img src={photos[1]} alt="" className="rounded-lg shadow-lg w-full" />
+            </div>
+            <div className="md:w-1/2">
+              <p className="text-lg leading-relaxed text-gray-700">
+                Fin dall'inizio, abbiamo scoperto di condividere le stesse passioni: l'amore per i viaggi 
+                e la buona cucina ci ha portato a esplorare il mondo insieme.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <img src={photos[2]} alt="" className="rounded-lg shadow-lg w-full" />
+            <img src={photos[3]} alt="" className="rounded-lg shadow-lg w-full" />
+            <img src={photos[4]} alt="" className="rounded-lg shadow-lg w-full" />
+          </div>
+
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="md:w-1/2">
+              <img src={photos[5]} alt="" className="rounded-lg shadow-lg w-full" />
+            </div>
+            <div className="md:w-1/2">
+              <p className="text-lg leading-relaxed text-gray-700">
+                Ma la cosa più bella è sempre stata condividere ogni momento con i nostri amici, 
+                che hanno reso ogni avventura ancora più speciale.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <img src={photos[6]} alt="" className="rounded-lg shadow-lg w-full" />
+            <img src={photos[7]} alt="" className="rounded-lg shadow-lg w-full" />
+            <img src={photos[8]} alt="" className="rounded-lg shadow-lg w-full" />
+          </div>
         </div>
       </div>
     </div>
