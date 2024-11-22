@@ -44,6 +44,22 @@ const Index = () => {
     {
       url: "/lovable-uploads/b7395aea-e2c0-4deb-8560-5f8f1b2261c8.png",
       caption: "Tra le risaie del Vietnam"
+    },
+    {
+      url: "/lovable-uploads/18c18510-bdcd-46ee-837a-14ae0d48cc4f.png",
+      caption: "Il nostro viaggio in Vietnam"
+    },
+    {
+      url: "/lovable-uploads/d0d57ed9-fcaf-4e8a-b715-ca16eea762cb.png",
+      caption: "La nostra avventura in Marocco"
+    },
+    {
+      url: "/lovable-uploads/d2071883-5d10-4d6d-bec2-a95cca2ddb9f.png",
+      caption: "Esplorando il Sudafrica"
+    },
+    {
+      url: "/lovable-uploads/97df5096-0ab3-464e-be21-a3f2965b7511.png",
+      caption: "Il nostro volo in elicottero"
     }
   ];
 
