@@ -26,20 +26,24 @@ const Index = () => {
 
   const photos = [
     {
-      url: "/lovable-uploads/18c18510-bdcd-46ee-837a-14ae0d48cc4f.png",
-      caption: "Il nostro viaggio in Vietnam"
+      url: "/lovable-uploads/64d3dca6-fc2b-4fcb-a25a-f39e45b53df5.png",
+      caption: "Safari in Africa"
     },
     {
-      url: "/lovable-uploads/d0d57ed9-fcaf-4e8a-b715-ca16eea762cb.png",
-      caption: "La nostra avventura in Marocco"
+      url: "/lovable-uploads/0ba48ebd-1618-46c5-9227-3f99a0cf60c2.png",
+      caption: "Avventure sulla neve in Finlandia"
     },
     {
-      url: "/lovable-uploads/d2071883-5d10-4d6d-bec2-a95cca2ddb9f.png",
-      caption: "Esplorando il Sudafrica"
+      url: "/lovable-uploads/a7be54d1-fb14-4b22-8f9c-da22a7c42199.png",
+      caption: "Aurora boreale in Lapponia"
     },
     {
-      url: "/lovable-uploads/97df5096-0ab3-464e-be21-a3f2965b7511.png",
-      caption: "Il nostro volo in elicottero"
+      url: "/lovable-uploads/a743b6b1-cfa0-43a2-9587-edd1cb50e3f1.png",
+      caption: "In barca nella baia di Ha Long"
+    },
+    {
+      url: "/lovable-uploads/b7395aea-e2c0-4deb-8560-5f8f1b2261c8.png",
+      caption: "Tra le risaie del Vietnam"
     }
   ];
 
@@ -84,10 +88,10 @@ const Index = () => {
 
       <div className="page-container">
         <h2 className="section-title">La Nostra Storia</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {photos.map((photo, index) => (
             <div key={index} className="group relative overflow-hidden rounded-lg shadow-lg">
-              <div className="aspect-w-3 aspect-h-4">
+              <div className="aspect-w-4 aspect-h-3">
                 <img
                   src={photo.url}
                   alt={photo.caption}
