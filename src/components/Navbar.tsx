@@ -1,6 +1,35 @@
 import { NavLink } from "react-router-dom";
+import { Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 
 const Navbar = () => {
+  const navLinks = [
+    { to: "/program", label: "Programma" },
+    { to: "/accommodation", label: "Alloggi" },
+    { to: "/registry", label: "Lista Nozze" },
+    { to: "/rsvp", label: "RSVP" },
+  ];
+
+  const NavLinks = () => (
+    <>
+      {navLinks.map((link) => (
+        <NavLink
+          key={link.to}
+          to={link.to}
+          className={({isActive}) => `nav-link ${isActive ? 'active' : ''}`}
+        >
+          {link.label}
+        </NavLink>
+      ))}
+    </>
+  );
+
   return (
     <nav className="bg-white/80 backdrop-blur-sm fixed w-full z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -8,19 +37,27 @@ const Navbar = () => {
           <NavLink to="/" className="font-display text-2xl text-wedding-gold">
             E&M
           </NavLink>
+          
           <div className="hidden md:flex space-x-8">
-            <NavLink to="/program" className={({isActive}) => `nav-link ${isActive ? 'active' : ''}`}>
-              Programma
-            </NavLink>
-            <NavLink to="/accommodation" className={({isActive}) => `nav-link ${isActive ? 'active' : ''}`}>
-              Alloggi
-            </NavLink>
-            <NavLink to="/registry" className={({isActive}) => `nav-link ${isActive ? 'active' : ''}`}>
-              Lista Nozze
-            </NavLink>
-            <NavLink to="/rsvp" className={({isActive}) => `nav-link ${isActive ? 'active' : ''}`}>
-              RSVP
-            </NavLink>
+            <NavLinks />
+          </div>
+
+          <div className="md:hidden">
+            <Drawer>
+              <DrawerTrigger asChild>
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6" />
+                </Button>
+              </DrawerTrigger>
+              <DrawerContent>
+                <div className="flex flex-col items-center space-y-4 py-6">
+                  <NavLinks />
+                  <DrawerClose asChild>
+                    <Button variant="ghost">Chiudi</Button>
+                  </DrawerClose>
+                </div>
+              </DrawerContent>
+            </Drawer>
           </div>
         </div>
       </div>
