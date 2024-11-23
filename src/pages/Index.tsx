@@ -26,15 +26,11 @@ const Index = () => {
   }, []);
 
   const photos = [
-    "/lovable-uploads/64d3dca6-fc2b-4fcb-a25a-f39e45b53df5.png",
-    "/lovable-uploads/0ba48ebd-1618-46c5-9227-3f99a0cf60c2.png",
-    "/lovable-uploads/a7be54d1-fb14-4b22-8f9c-da22a7c42199.png",
-    "/lovable-uploads/a743b6b1-cfa0-43a2-9587-edd1cb50e3f1.png",
-    "/lovable-uploads/b7395aea-e2c0-4deb-8560-5f8f1b2261c8.png",
-    "/lovable-uploads/18c18510-bdcd-46ee-837a-14ae0d48cc4f.png",
-    "/lovable-uploads/d0d57ed9-fcaf-4e8a-b715-ca16eea762cb.png",
-    "/lovable-uploads/d2071883-5d10-4d6d-bec2-a95cca2ddb9f.png",
-    "/lovable-uploads/97df5096-0ab3-464e-be21-a3f2965b7511.png"
+    "/lovable-uploads/6ddb2525-2462-41a9-8a54-027f971821c7.png",
+    "/lovable-uploads/25ae3e07-a690-4837-bacb-33b0b58fb994.png",
+    "/lovable-uploads/9efb74b7-d57d-4e82-8e05-f04bec30c50f.png",
+    "/lovable-uploads/39d1d4fc-4122-40d4-b1b9-ee4e161d2644.png",
+    "/lovable-uploads/cd9cd6ef-a568-4ff6-83a7-27e1c017d8d2.png"
   ];
 
   return (
@@ -88,24 +84,21 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto">
-          <Carousel className="w-full">
-            <CarouselContent>
-              {photos.map((photo, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1">
-                    <img 
-                      src={photo} 
-                      alt="" 
-                      className="rounded-lg shadow-lg w-full h-64 object-cover"
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-          </Carousel>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+          {photos.map((photo, index) => (
+            <div 
+              key={index} 
+              className={`relative overflow-hidden rounded-lg shadow-lg ${
+                index === 0 ? 'md:col-span-2 lg:col-span-2' : ''
+              }`}
+            >
+              <img 
+                src={photo} 
+                alt="" 
+                className="w-full h-[300px] object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
