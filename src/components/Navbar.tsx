@@ -35,7 +35,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="bg-transparent backdrop-blur-sm fixed w-full z-50 shadow-sm">
+    <nav className="bg-white/80 backdrop-blur-sm fixed w-full z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <NavLink to="/" className="font-display text-2xl text-wedding-sage">
