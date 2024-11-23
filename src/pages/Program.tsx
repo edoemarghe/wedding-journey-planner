@@ -8,14 +8,14 @@ const Program = () => {
         
         <div className="max-w-4xl mx-auto space-y-12">
           {/* Friday */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col md:flex-row">
             <div 
-              className="h-48 bg-cover bg-center"
+              className="md:w-1/2 h-48 md:h-auto bg-cover bg-center"
               style={{
                 backgroundImage: "url('/lovable-uploads/64d3dca6-fc2b-4fcb-a25a-f39e45b53df5.png')"
               }}
             />
-            <div className="p-6">
+            <div className="md:w-1/2 p-6">
               <h2 className="text-2xl font-display mb-4">Venerdì 4 Luglio 2025</h2>
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
@@ -31,14 +31,14 @@ const Program = () => {
           </div>
 
           {/* Saturday */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col md:flex-row">
             <div 
-              className="h-48 bg-cover bg-center"
+              className="md:w-1/2 h-48 md:h-auto bg-cover bg-center"
               style={{
                 backgroundImage: "url('/lovable-uploads/a7be54d1-fb14-4b22-8f9c-da22a7c42199.png')"
               }}
             />
-            <div className="p-6">
+            <div className="md:w-1/2 p-6">
               <h2 className="text-2xl font-display mb-4">Sabato 5 Luglio 2025</h2>
               <div className="space-y-6">
                 <div className="space-y-2">
@@ -73,14 +73,14 @@ const Program = () => {
           </div>
 
           {/* Sunday */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col md:flex-row">
             <div 
-              className="h-48 bg-cover bg-center"
+              className="md:w-1/2 h-48 md:h-auto bg-cover bg-center"
               style={{
                 backgroundImage: "url('/lovable-uploads/97df5096-0ab3-464e-be21-a3f2965b7511.png')"
               }}
             />
-            <div className="p-6">
+            <div className="md:w-1/2 p-6">
               <h2 className="text-2xl font-display mb-4">Domenica 6 Luglio 2025</h2>
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
