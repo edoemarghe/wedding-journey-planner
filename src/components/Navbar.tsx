@@ -22,7 +22,11 @@ const Navbar = () => {
         <NavLink
           key={link.to}
           to={link.to}
-          className={({isActive}) => `nav-link ${isActive ? 'active' : ''}`}
+          className={({ isActive }) => 
+            `text-gray-600 hover:text-wedding-sage transition-colors duration-200 ${
+              isActive ? 'text-wedding-sage' : ''
+            }`
+          }
         >
           {link.label}
         </NavLink>
@@ -34,8 +38,12 @@ const Navbar = () => {
     <nav className="bg-white/80 backdrop-blur-sm fixed w-full z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <NavLink to="/" className="font-display text-2xl text-wedding-gold">
-            E&M
+          <NavLink to="/" className="font-display text-2xl text-wedding-sage">
+            <img 
+              src="/lovable-uploads/c21a8106-a13a-467b-ad08-f40710950a50.png" 
+              alt="Edo & Marghe"
+              className="h-8"
+            />
           </NavLink>
           
           <div className="hidden md:flex space-x-8">

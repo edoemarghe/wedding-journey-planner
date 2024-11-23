@@ -20,9 +20,8 @@ export default {
     extend: {
       colors: {
         wedding: {
-          rose: "#F5E6E8",
+          cream: "#FFFDF7",
           sage: "#D4E6B5",
-          gold: "#DAA520",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
