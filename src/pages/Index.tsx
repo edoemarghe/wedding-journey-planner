@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const Index = () => {
   const [days, setDays] = useState(0);
@@ -30,7 +29,12 @@ const Index = () => {
     "/lovable-uploads/25ae3e07-a690-4837-bacb-33b0b58fb994.png",
     "/lovable-uploads/9efb74b7-d57d-4e82-8e05-f04bec30c50f.png",
     "/lovable-uploads/39d1d4fc-4122-40d4-b1b9-ee4e161d2644.png",
-    "/lovable-uploads/cd9cd6ef-a568-4ff6-83a7-27e1c017d8d2.png"
+    "/lovable-uploads/cd9cd6ef-a568-4ff6-83a7-27e1c017d8d2.png",
+    "/lovable-uploads/7515f790-3edd-47be-be84-5affa4853a3c.png",
+    "/lovable-uploads/d7ba74dd-f09f-4750-92d0-765eb799f706.png",
+    "/lovable-uploads/e0346628-c9e9-4033-83db-7f68e5e84c6f.png",
+    "/lovable-uploads/866793c3-40ce-4a5e-a844-60ca31416467.png",
+    "/lovable-uploads/03f523f2-cdb0-4b39-9845-84d58cec285a.png"
   ];
 
   return (
