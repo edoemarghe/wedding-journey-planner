@@ -83,33 +83,40 @@ const Index = () => {
       <div className="page-container">
         <h2 className="section-title">La Nostra Storia</h2>
         <div className="max-w-4xl mx-auto mb-16">
-          <p className="text-lg leading-relaxed text-gray-700 mb-8">
-            La nostra storia è iniziata nel 2018, quando ci siamo incontrati per la prima volta. 
-            Sotto le luci di Natale di quell'anno magico, è sbocciato l'amore che ci ha uniti fino ad oggi.
-            Fin dall'inizio, abbiamo scoperto di condividere le stesse passioni: l'amore per i viaggi 
-            e la buona cucina ci ha portato a esplorare il mondo insieme. Ma la cosa più bella è sempre stata 
-            condividere ogni momento con i nostri amici, che hanno reso ogni avventura ancora più speciale.
+          <p className="text-lg leading-relaxed text-gray-700 mb-4">
+            Tutto è iniziato in una sera di settembre 2018, durante una cena tra amici organizzata da un'amica in comune. Quella sera eravamo seduti uno di fronte all'altro, senza sapere che quello sarebbe stato l'inizio di un'avventura indimenticabile.
+          </p>
+          <p className="text-lg leading-relaxed text-gray-700 mb-4">
+            Ci è voluto qualche mese per scoprire davvero quanto fossimo fatti l'uno per l'altra, ma a gennaio 2019 la nostra storia ha preso il via. Fin dall'inizio, abbiamo scoperto di condividere le stesse passioni: l'amore per i viaggi e la buona cucina ci ha portato a esplorare il mondo insieme. Ma la cosa più bella è sempre stata condividere ogni momento con i nostri amici, che hanno reso ogni avventura ancora più speciale.
+          </p>
+          <p className="text-lg leading-relaxed text-gray-700">
+            Oggi siamo qui, pronti a scrivere il prossimo capitolo della nostra vita insieme, con lo stesso entusiasmo di quella sera in cui tutto è iniziato.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-          {photos.map((photo, index) => (
-            <div 
-              key={index} 
-              className={`relative overflow-hidden rounded-lg shadow-lg ${
-                index === 0 ? 'md:col-span-2 lg:col-span-2' : ''
-              }`}
-            >
-              <div className="aspect-[4/3] relative">
-                <img 
-                  src={photo} 
-                  alt="" 
-                  className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  style={{ objectPosition: 'center 20%' }}
-                />
+          {photos.map((photo, index) => {
+            // Define if the image should be displayed in a vertical or horizontal format
+            const isVertical = [2, 5, 8, 11].includes(index); // Adjust these indices based on your actual vertical photos
+            const aspectRatio = isVertical ? 'aspect-[3/4]' : 'aspect-[4/3]';
+            const spanClass = index === 0 ? 'md:col-span-2 lg:col-span-2' : '';
+            
+            return (
+              <div 
+                key={index} 
+                className={`relative overflow-hidden rounded-lg shadow-lg ${spanClass}`}
+              >
+                <div className={aspectRatio + " relative"}>
+                  <img 
+                    src={photo} 
+                    alt="" 
+                    className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    style={{ objectPosition: 'center 30%' }}
+                  />
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>
