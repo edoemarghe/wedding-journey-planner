@@ -34,7 +34,11 @@ const Index = () => {
     "/lovable-uploads/d7ba74dd-f09f-4750-92d0-765eb799f706.png",
     "/lovable-uploads/e0346628-c9e9-4033-83db-7f68e5e84c6f.png",
     "/lovable-uploads/866793c3-40ce-4a5e-a844-60ca31416467.png",
-    "/lovable-uploads/03f523f2-cdb0-4b39-9845-84d58cec285a.png"
+    "/lovable-uploads/03f523f2-cdb0-4b39-9845-84d58cec285a.png",
+    "/lovable-uploads/e157fa51-2e55-4728-9834-3971d86b0b27.png",
+    "/lovable-uploads/6cdf466a-63bb-47c1-a69f-d990c03db6ce.png",
+    "/lovable-uploads/96f87037-13d6-4c48-9d6d-13c867861cad.png",
+    "/lovable-uploads/2cbdfd49-43a4-405a-a967-06e3e718e607.png"
   ];
 
   return (
@@ -88,7 +92,7 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {photos.map((photo, index) => (
             <div 
               key={index} 
@@ -96,11 +100,14 @@ const Index = () => {
                 index === 0 ? 'md:col-span-2 lg:col-span-2' : ''
               }`}
             >
-              <img 
-                src={photo} 
-                alt="" 
-                className="w-full h-[300px] object-cover hover:scale-105 transition-transform duration-300"
-              />
+              <div className="aspect-[4/3] relative">
+                <img 
+                  src={photo} 
+                  alt="" 
+                  className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  style={{ objectPosition: 'center 20%' }}
+                />
+              </div>
             </div>
           ))}
         </div>
