@@ -6,49 +6,92 @@ const Program = () => {
       <div className="page-container">
         <h1 className="section-title">Programma</h1>
         
-        <div className="max-w-3xl mx-auto space-y-12">
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-display mb-4">Cerimonia</h2>
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <CalendarDays className="text-wedding-gold" />
-                <span>Sabato 5 Luglio 2025</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Clock className="text-wedding-gold" />
-                <span>16:00</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="text-wedding-gold" />
-                <span>Chiesa di [Nome Chiesa]</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-display mb-4">Ricevimento</h2>
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <Clock className="text-wedding-gold" />
-                <span>18:00</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="text-wedding-gold" />
-                <span>Location del ricevimento</span>
+        <div className="max-w-4xl mx-auto space-y-12">
+          {/* Friday */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div 
+              className="h-48 bg-cover bg-center"
+              style={{
+                backgroundImage: "url('/lovable-uploads/64d3dca6-fc2b-4fcb-a25a-f39e45b53df5.png')"
+              }}
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-display mb-4">Venerdì 4 Luglio 2025</h2>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <CalendarDays className="text-wedding-gold" />
+                  <span>Aperitivo</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <MapPin className="text-wedding-gold" />
+                  <span className="italic">TBD</span>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-display mb-4">Festa</h2>
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <Clock className="text-wedding-gold" />
-                <span>23:00</span>
+          {/* Saturday */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div 
+              className="h-48 bg-cover bg-center"
+              style={{
+                backgroundImage: "url('/lovable-uploads/a7be54d1-fb14-4b22-8f9c-da22a7c42199.png')"
+              }}
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-display mb-4">Sabato 5 Luglio 2025</h2>
+              <div className="space-y-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <Clock className="text-wedding-gold" />
+                    <span>16:00 - Messa</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <MapPin className="text-wedding-gold" />
+                    <div className="flex flex-col">
+                      <span>Santuario di Santa Lucia al Sepolcro</span>
+                      <span className="text-gray-600">Piazza Santa Lucia, 1, 96100 Siracusa SR, Italia</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <Clock className="text-wedding-gold" />
+                    <span>18:00 - Cerimonia</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <MapPin className="text-wedding-gold" />
+                    <div className="flex flex-col">
+                      <span>Donna Coraly</span>
+                      <span className="text-gray-600">Contrada, Traversa S. Michele, 96100 Siracusa SR, Italia</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <p className="text-gray-600 mt-2">
-                Dopo cena, continueremo i festeggiamenti con musica e balli!
-              </p>
+            </div>
+          </div>
+
+          {/* Sunday */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div 
+              className="h-48 bg-cover bg-center"
+              style={{
+                backgroundImage: "url('/lovable-uploads/97df5096-0ab3-464e-be21-a3f2965b7511.png')"
+              }}
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-display mb-4">Domenica 6 Luglio 2025</h2>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <CalendarDays className="text-wedding-gold" />
+                  <span>Hangover Brunch</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <MapPin className="text-wedding-gold" />
+                  <span className="italic">TBD</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
