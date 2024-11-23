@@ -94,29 +94,22 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-          {photos.map((photo, index) => {
-            // Define if the image should be displayed in a vertical or horizontal format
-            const isVertical = [2, 5, 8, 11].includes(index); // Adjust these indices based on your actual vertical photos
-            const aspectRatio = isVertical ? 'aspect-[3/4]' : 'aspect-[4/3]';
-            const spanClass = index === 0 ? 'md:col-span-2 lg:col-span-2' : '';
-            
-            return (
-              <div 
-                key={index} 
-                className={`relative overflow-hidden rounded-lg shadow-lg ${spanClass}`}
-              >
-                <div className={aspectRatio + " relative"}>
-                  <img 
-                    src={photo} 
-                    alt="" 
-                    className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                    style={{ objectPosition: 'center 30%' }}
-                  />
-                </div>
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-6 max-w-7xl mx-auto space-y-6">
+          {photos.map((photo, index) => (
+            <div 
+              key={index} 
+              className="relative overflow-hidden rounded-lg shadow-lg break-inside-avoid mb-6"
+            >
+              <div className="aspect-[3/4] relative">
+                <img 
+                  src={photo} 
+                  alt="" 
+                  className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  style={{ objectPosition: 'center 30%' }}
+                />
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
       </div>
     </div>
