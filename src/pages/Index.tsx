@@ -58,7 +58,9 @@ const Index = () => {
       <div 
         className="h-[80vh] flex items-center justify-center bg-cover bg-center relative"
         style={{
-          backgroundImage: "url('/lovable-uploads/0ba48ebd-1618-46c5-9227-3f99a0cf60c2.png')",
+          backgroundImage: "url('/lovable-uploads/9efb74b7-d57d-4e82-8e05-f04bec30c50f.png')",
+          backgroundPosition: "center center",
+          backgroundSize: "100% auto"
         }}
       >
         <div className="absolute inset-0 bg-black/20" />
