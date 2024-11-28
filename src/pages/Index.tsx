@@ -56,11 +56,11 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <div 
-        className="h-[80vh] flex items-center justify-center bg-cover bg-center relative"
+        className="h-screen flex items-center justify-center bg-cover bg-center relative"
         style={{
           backgroundImage: "url('/lovable-uploads/751e266e-8301-41c6-b28e-4d291cc3ba88.png')",
           backgroundPosition: "center center",
-          backgroundSize: "100% auto"
+          backgroundSize: "cover"
         }}
       >
         <div className="absolute inset-0 bg-black/20" />
