@@ -49,8 +49,7 @@ const Index = () => {
     "/lovable-uploads/a7be54d1-fb14-4b22-8f9c-da22a7c42199.png",
     "/lovable-uploads/b7395aea-e2c0-4deb-8560-5f8f1b2261c8.png",
     "/lovable-uploads/c21a8106-a13a-467b-ad08-f40710950a50.png",
-    "/lovable-uploads/d0d57ed9-fcaf-4e8a-b715-ca16eea762cb.png",
-    "/lovable-uploads/d2071883-5d10-4d6d-bec2-a95cca2ddb9f.png"
+    "/lovable-uploads/d0d57ed9-fcaf-4e8a-b715-ca16eea762cb.png"
   ];
 
   return (
