@@ -9,7 +9,7 @@ const RSVP = () => {
             <div 
               className="md:w-1/2 h-64 md:h-auto bg-cover bg-center"
               style={{
-                backgroundImage: "url('/lovable-uploads/d2071883-5d10-4d6d-bec2-a95cca2ddb9f.png')"
+                backgroundImage: "url('/lovable-uploads/af87caf6-ba1f-489e-957f-f4d97d5490d0.png')"
               }}
             />
             <div className="md:w-1/2 p-8">
