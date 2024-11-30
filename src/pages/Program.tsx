@@ -72,7 +72,7 @@ const Program = () => {
               {/* Reception */}
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <img 
-                  src="/lovable-uploads/a0c0bcf8-79ff-41cb-adba-8841bdccb838.png"
+                  src="/lovable-uploads/f864c219-6adb-447d-87cd-b3da4663591e.png"
                   alt="Donna Coraly"
                   className="w-full h-48 object-cover"
                 />
