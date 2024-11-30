@@ -140,7 +140,7 @@ const Index = () => {
             {photos.map((photo, index) => (
               <div 
                 key={index} 
-                className="relative overflow-hidden rounded-lg shadow-sm break-inside-avoid mb-3"
+                className="relative overflow-hidden rounded-lg shadow-sm break-inside-avoid mb-3 transition-transform duration-300 hover:scale-105"
               >
                 <div className="aspect-[3/4] relative">
                   <img 
