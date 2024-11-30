@@ -103,19 +103,40 @@ const Index = () => {
 
       <div className="page-container">
         <h2 className="section-title">La Nostra Storia</h2>
-        <div className="max-w-4xl mx-auto mb-16">
-          <p className="text-lg leading-relaxed text-gray-700 mb-4">
-            Tutto è iniziato in una sera di settembre 2018, durante una cena tra amici organizzata da un'amica in comune. Quella sera eravamo seduti uno di fronte all'altro, senza sapere che quello sarebbe stato l'inizio di un'avventura indimenticabile.
-          </p>
-          <p className="text-lg leading-relaxed text-gray-700 mb-4">
-            Ci è voluto qualche mese per scoprire davvero quanto fossimo fatti l'uno per l'altra, ma a gennaio 2019 la nostra storia ha preso il via. Fin dall'inizio, abbiamo scoperto di condividere le stesse passioni: l'amore per i viaggi e la buona cucina ci ha portato a esplorare il mondo insieme. Ma la cosa più bella è sempre stata condividere ogni momento con i nostri amici, che hanno reso ogni avventura ancora più speciale.
-          </p>
-          <p className="text-lg leading-relaxed text-gray-700">
-            Oggi siamo qui, pronti a scrivere il prossimo capitolo della nostra vita insieme, con lo stesso entusiasmo di quella sera in cui tutto è iniziato.
-          </p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+          <div className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-xl">
+            <img 
+              src="/lovable-uploads/1045a460-c1ae-4444-8ab0-f9134ffb03a6.png"
+              alt="Coppia al tramonto sulla spiaggia" 
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-2xl font-display mb-4 text-wedding-sage">Come Ci Siamo Conosciuti</h3>
+              <p className="text-lg leading-relaxed text-gray-700">
+                Tutto è iniziato in una sera di settembre 2018, durante una cena tra amici organizzata da un'amica in comune. Quella sera eravamo seduti uno di fronte all'altro, senza sapere che quello sarebbe stato l'inizio di un'avventura indimenticabile.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-display mb-4 text-wedding-sage">I Primi Passi Insieme</h3>
+              <p className="text-lg leading-relaxed text-gray-700">
+                Ci è voluto qualche mese per scoprire davvero quanto fossimo fatti l'uno per l'altra, ma a gennaio 2019 la nostra storia ha preso il via. Fin dall'inizio, abbiamo scoperto di condividere le stesse passioni: l'amore per i viaggi e la buona cucina ci ha portato a esplorare il mondo insieme.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-display mb-4 text-wedding-sage">La Proposta</h3>
+              <p className="text-lg leading-relaxed text-gray-700">
+                La cosa più bella è sempre stata condividere ogni momento con i nostri amici, che hanno reso ogni avventura ancora più speciale. Oggi siamo qui, pronti a scrivere il prossimo capitolo della nostra vita insieme, con lo stesso entusiasmo di quella sera in cui tutto è iniziato.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div className="columns-1 md:columns-2 lg:columns-3 gap-6 max-w-7xl mx-auto space-y-6">
+        <div className="mt-24">
+          <div className="columns-1 md:columns-2 lg:columns-3 gap-6 max-w-7xl mx-auto space-y-6">
           {photos.map((photo, index) => (
             <div 
               key={index} 
@@ -131,6 +152,7 @@ const Index = () => {
               </div>
             </div>
           ))}
+          </div>
         </div>
       </div>
     </div>
