@@ -24,7 +24,7 @@ const RSVP = () => {
                   href="https://docs.google.com/forms/d/e/1FAIpQLSfQXfQzbzEbfLe9JiUxhJf_WzoJ_vGdEkueB16acC54hoaI4w/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-wedding-gold text-white px-6 py-3 rounded-md hover:bg-wedding-gold/90 transition-colors duration-200 mt-4"
+                  className="inline-block bg-wedding-sage text-gray-800 px-6 py-3 rounded-md hover:bg-wedding-sage/90 transition-colors duration-200 mt-4"
                 >
                   Compila il modulo RSVP
                 </a>
