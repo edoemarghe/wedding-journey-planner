@@ -80,11 +80,12 @@ const Index = () => {
           </div>
         </div>
         <div 
-          className="absolute lg:relative inset-0 lg:inset-auto z-0 lg:z-10 lg:translate-x-12"
+          className="absolute lg:relative inset-0 lg:inset-auto z-0 lg:z-10 lg:translate-x-12 shadow-2xl"
           style={{
             backgroundImage: "url('/lovable-uploads/1045a460-c1ae-4444-8ab0-f9134ffb03a6.png')",
-            backgroundPosition: "center top",
-            backgroundSize: "cover"
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            filter: "brightness(1.05) contrast(1.05)"
           }}
         />
       </div>
