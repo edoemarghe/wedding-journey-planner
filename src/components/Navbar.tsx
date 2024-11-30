@@ -37,7 +37,14 @@ const Navbar = () => {
   return (
     <nav className="bg-wedding-cream/95 backdrop-blur-md fixed w-full z-50 border-b border-wedding-sage/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-center h-20 items-center">
+        <div className="flex justify-between h-20 items-center">
+          <NavLink 
+            to="/" 
+            className="font-display text-3xl text-gray-900 italic hover:text-wedding-sage transition-colors duration-300"
+          >
+            <span>Edo & Marghe</span>
+          </NavLink>
+          
           <div className="hidden md:flex space-x-12">
             <NavLinks />
           </div>
