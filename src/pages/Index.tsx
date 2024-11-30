@@ -109,7 +109,7 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-display mb-4 text-wedding-sage">La Proposta</h3>
               <p className="text-lg leading-relaxed text-gray-700">
-                Davanti al mare di Milos, con grandissima emozione, abbiamo deciso di sposarci. Oggi siamo qui, pronti a scrivere il prossimo capitolo della nostra vita insieme.
+                Davanti al mare di Milos, con grandissima emozione, abbiamo deciso di sposarci. Oggi siamo qui, pronti a scrivere il prossimo capitolo della nostra vita insieme, con lo stesso entusiasmo di quella sera in cui tutto è iniziato.
               </p>
             </div>
           </div>
