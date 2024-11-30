@@ -147,7 +147,7 @@ const Index = () => {
                   <img 
                     src={photo} 
                     alt="" 
-                    className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    className="absolute inset-0 w-full h-full object-cover"
                     style={{ objectPosition: 'center 30%' }}
                   />
                 </div>
