@@ -57,46 +57,48 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-wedding-cream">
-      <div 
-        className="h-screen flex items-center justify-center bg-cover bg-center relative"
-        style={{
-          backgroundImage: "url('/lovable-uploads/751e266e-8301-41c6-b28e-4d291cc3ba88.png')",
-          backgroundPosition: "center center",
-          backgroundSize: "cover"
-        }}
-      >
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="text-center relative z-10">
-          <h1 className="text-5xl md:text-7xl font-display mb-6 text-white">
-            Edoardo & Margherita
-          </h1>
-          <p className="text-xl md:text-2xl mb-12 font-light text-white">
-            5 Luglio 2025
-          </p>
-          <div className="flex justify-center gap-8 text-white mb-12">
-            <div>
-              <div className="text-4xl font-display">{days}</div>
-              <div className="text-sm">GIORNI</div>
+      <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
+        <div className="flex items-center justify-center lg:justify-end px-8 lg:px-16 relative z-10 bg-wedding-cream/90 lg:bg-wedding-cream">
+          <div className="max-w-xl text-center lg:text-left py-20">
+            <h1 className="text-5xl md:text-7xl font-display mb-6 text-gray-800">
+              Edoardo & Margherita
+            </h1>
+            <p className="text-xl md:text-2xl mb-12 font-light text-gray-600">
+              5 Luglio 2025
+            </p>
+            <div className="flex justify-center lg:justify-start gap-12 text-gray-800 mb-12">
+              <div className="text-center">
+                <div className="text-4xl font-display">{days}</div>
+                <div className="text-sm font-light">GIORNI</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-display">{hours}</div>
+                <div className="text-sm font-light">ORE</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-display">{minutes}</div>
+                <div className="text-sm font-light">MINUTI</div>
+              </div>
             </div>
-            <div>
-              <div className="text-4xl font-display">{hours}</div>
-              <div className="text-sm">ORE</div>
-            </div>
-            <div>
-              <div className="text-4xl font-display">{minutes}</div>
-              <div className="text-sm">MINUTI</div>
-            </div>
+            <Button
+              asChild
+              className="bg-wedding-sage text-gray-800 hover:bg-wedding-sage/90 text-lg px-8 py-6 h-auto"
+            >
+              <Link to="/rsvp" className="flex items-center gap-2">
+                <span>Conferma la tua presenza</span>
+                <Flower2 className="h-5 w-5" />
+              </Link>
+            </Button>
           </div>
-          <Button
-            asChild
-            className="bg-wedding-sage text-gray-800 hover:bg-wedding-sage/90"
-          >
-            <Link to="/rsvp" className="flex items-center gap-2">
-              <span>Conferma la tua presenza</span>
-              <Flower2 className="h-4 w-4" />
-            </Link>
-          </Button>
         </div>
+        <div 
+          className="absolute lg:relative inset-0 lg:inset-auto z-0 lg:z-10"
+          style={{
+            backgroundImage: "url('/lovable-uploads/751e266e-8301-41c6-b28e-4d291cc3ba88.png')",
+            backgroundPosition: "center",
+            backgroundSize: "cover"
+          }}
+        />
       </div>
 
       <div className="page-container">
