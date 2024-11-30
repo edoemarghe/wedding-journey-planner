@@ -60,10 +60,10 @@ const Index = () => {
       <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
         <div className="flex items-center justify-center lg:justify-end px-8 lg:px-16 relative z-10 bg-wedding-cream/90 lg:bg-wedding-cream">
           <div className="max-w-xl text-center lg:text-left py-20">
-            <h1 className="text-5xl md:text-7xl font-display mb-6 text-gray-800">
+            <h1 className="text-6xl md:text-7xl font-display mb-6 text-gray-800 font-light">
               Edoardo & Margherita
             </h1>
-            <p className="text-xl md:text-2xl mb-12 font-light text-gray-600">
+            <p className="text-2xl md:text-3xl mb-12 font-light text-gray-600">
               5 Luglio 2025
             </p>
             <div className="flex justify-center lg:justify-start gap-12 text-gray-800 mb-12">
@@ -82,7 +82,7 @@ const Index = () => {
             </div>
             <Button
               asChild
-              className="bg-wedding-sage text-gray-800 hover:bg-wedding-sage/90 text-lg px-8 py-6 h-auto"
+              className="bg-wedding-sage text-white hover:bg-wedding-sage/90 text-lg px-8 py-6 h-auto"
             >
               <Link to="/rsvp" className="flex items-center gap-2">
                 <span>Conferma la tua presenza</span>
@@ -95,7 +95,7 @@ const Index = () => {
           className="absolute lg:relative inset-0 lg:inset-auto z-0 lg:z-10"
           style={{
             backgroundImage: "url('/lovable-uploads/751e266e-8301-41c6-b28e-4d291cc3ba88.png')",
-            backgroundPosition: "center",
+            backgroundPosition: "center top",
             backgroundSize: "cover"
           }}
         />

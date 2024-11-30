@@ -21,7 +21,7 @@ export default {
       colors: {
         wedding: {
           cream: "#FFFDF7",
-          sage: "#D4E6B5",
+          sage: "#A7B891",  // Darker sage green
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -58,8 +58,8 @@ export default {
         },
       },
       fontFamily: {
-        display: ["Playfair Display", "serif"],
-        body: ["Lato", "sans-serif"],
+        display: ["Cormorant Garamond", "serif"],
+        body: ["Cormorant Garamond", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
