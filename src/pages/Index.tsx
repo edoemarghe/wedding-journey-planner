@@ -29,7 +29,12 @@ const Index = () => {
     "/lovable-uploads/d0cf54d8-0431-415b-95b8-01bc791423b0.png",
     "/lovable-uploads/d71580b5-ba72-4cc7-9560-34d00e7778d2.png",
     "/lovable-uploads/e30735cf-cf67-4823-8182-527229ed5d56.png",
-    "/lovable-uploads/f8984e96-efc7-4680-8b2e-fe03bc654ea8.png"
+    "/lovable-uploads/f8984e96-efc7-4680-8b2e-fe03bc654ea8.png",
+    "/lovable-uploads/c72aabd6-bd2c-4eb3-882d-c6551aafb902.png",
+    "/lovable-uploads/bd0b246a-0941-40f6-af10-97d74e21a5c4.png",
+    "/lovable-uploads/7fe539aa-2a3f-45db-a7aa-8a32da482931.png",
+    "/lovable-uploads/2b3e0b18-dc9e-4e64-a0a0-fbf7a1433750.png",
+    "/lovable-uploads/a805f986-9d11-497a-bd9e-0520d38d4ff7.png"
   ];
 
   return (
