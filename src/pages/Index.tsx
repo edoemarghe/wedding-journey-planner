@@ -27,7 +27,6 @@ const Index = () => {
   }, []);
 
   const photos = [
-    "/lovable-uploads/6ddb2525-2462-41a9-8a54-027f971821c7.png",
     "/lovable-uploads/25ae3e07-a690-4837-bacb-33b0b58fb994.png",
     "/lovable-uploads/9efb74b7-d57d-4e82-8e05-f04bec30c50f.png",
     "/lovable-uploads/39d1d4fc-4122-40d4-b1b9-ee4e161d2644.png",
