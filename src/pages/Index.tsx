@@ -102,7 +102,7 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-display mb-4 text-wedding-sage">I Primi Passi Insieme</h3>
               <p className="text-lg leading-relaxed text-gray-700">
-                Ci è voluto qualche mese per scoprire davvero quanto fossimo fatti l'uno per l'altra, ma a gennaio 2019 la nostra storia ha preso il via. Fin dall'inizio, abbiamo scoperto di condividere le stesse passioni: l'amore per i viaggi e la buona cucina ci ha portato a esplorare il mondo insieme.
+                Fin dall'inizio siamo stati legati dall'amore per i viaggi, la buona cucina e la voglia di condividere queste passioni con i nostri amici, che hanno reso ogni momento più speciale. Ci sono tanti ricordi che hanno colorato la nostra vita negli ultimi anni; dal  primo viaggio insieme in Portogallo, alla prima casa, alla prima volta che abbiamo parlato di condividere il resto della vita insieme. Oggi più che mai siamo convinti che vogliamo continuare a costruire bellissime memorie insieme.
               </p>
             </div>
 
