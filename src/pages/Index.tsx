@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
 import { Flower2 } from "lucide-react";
 
 const Index = () => {
@@ -63,7 +61,7 @@ const Index = () => {
             <p className="text-2xl md:text-3xl mb-12 font-light text-gray-600">
               5 Luglio 2025
             </p>
-            <div className="flex justify-center lg:justify-start gap-12 text-gray-800 mb-12">
+            <div className="flex justify-center lg:justify-start gap-12 text-gray-800">
               <div className="text-center">
                 <div className="text-4xl font-display">{days}</div>
                 <div className="text-sm font-light">GIORNI</div>
@@ -77,15 +75,6 @@ const Index = () => {
                 <div className="text-sm font-light">MINUTI</div>
               </div>
             </div>
-            <Button
-              asChild
-              className="bg-wedding-sage text-white hover:bg-wedding-sage/90 text-lg px-8 py-6 h-auto"
-            >
-              <Link to="/rsvp" className="flex items-center gap-2">
-                <span>Conferma la tua presenza</span>
-                <Flower2 className="h-5 w-5" />
-              </Link>
-            </Button>
           </div>
         </div>
         <div 
