@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Menu, Flower2 } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Drawer,
@@ -38,8 +38,7 @@ const Navbar = () => {
     <nav className="bg-wedding-cream/80 backdrop-blur-sm fixed w-full z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <NavLink to="/" className="font-display text-2xl text-gray-900 italic flex items-center gap-2">
-            <Flower2 className="h-6 w-6 text-gray-900" />
+          <NavLink to="/" className="font-display text-2xl text-gray-900 italic">
             <span>Edo & Marghe</span>
           </NavLink>
           
