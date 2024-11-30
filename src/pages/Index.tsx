@@ -94,7 +94,7 @@ const Index = () => {
         <div 
           className="absolute lg:relative inset-0 lg:inset-auto z-0 lg:z-10"
           style={{
-            backgroundImage: "url('/lovable-uploads/751e266e-8301-41c6-b28e-4d291cc3ba88.png')",
+            backgroundImage: "url('/lovable-uploads/1045a460-c1ae-4444-8ab0-f9134ffb03a6.png')",
             backgroundPosition: "center top",
             backgroundSize: "cover"
           }}
@@ -106,7 +106,7 @@ const Index = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           <div className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-xl">
             <img 
-              src="/lovable-uploads/1045a460-c1ae-4444-8ab0-f9134ffb03a6.png"
+              src="/lovable-uploads/751e266e-8301-41c6-b28e-4d291cc3ba88.png"
               alt="Coppia al tramonto sulla spiaggia" 
               className="absolute inset-0 w-full h-full object-cover"
             />
