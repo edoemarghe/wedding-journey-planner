@@ -6,9 +6,9 @@ import { useToast } from "@/components/ui/use-toast";
 
 const activities = [
   {
-    title: "Immersione nella barriera corallina di Bora Bora",
-    description: "Esplora i fondali cristallini e la vita marina colorata",
-    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+    title: "Overwater bungalows a Bora Bora",
+    description: "Soggiorno esclusivo nelle iconiche ville sull'acqua di Bora Bora",
+    image: "public/lovable-uploads/d38c681c-2111-4905-bd1e-03662c9e86ce.png",
     price: ""
   },
   {
