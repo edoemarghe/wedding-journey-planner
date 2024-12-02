@@ -9,61 +9,61 @@ const activities = [
     title: "Immersione nella barriera corallina di Bora Bora",
     description: "Esplora i fondali cristallini e la vita marina colorata",
     image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
-    price: "250"
+    price: ""
   },
   {
     title: "Escursione al Monte Cook",
     description: "Trekking nel parco nazionale più alto della Nuova Zelanda",
     image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
-    price: "180"
+    price: ""
   },
   {
     title: "Tour in elicottero sui ghiacciai",
     description: "Vista mozzafiato sui ghiacciai della Nuova Zelanda",
     image: "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151",
-    price: "400"
+    price: ""
   },
   {
     title: "Relax negli overwater bungalow",
     description: "Soggiorno esclusivo nelle iconiche ville sull'acqua di Bora Bora",
     image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716",
-    price: "500"
+    price: ""
   },
   {
     title: "Kayak nelle acque turchesi",
     description: "Esplora le lagune di Bora Bora in kayak",
     image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67",
-    price: "120"
+    price: ""
   },
   {
     title: "Visita ai villaggi Maori",
     description: "Scopri la cultura e le tradizioni indigene della Nuova Zelanda",
     image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
-    price: "150"
+    price: ""
   },
   {
     title: "Foresta di Redwoods",
     description: "Passeggiata tra gli alberi giganti di Rotorua",
     image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86",
-    price: "90"
+    price: ""
   },
   {
     title: "Cena romantica sulla spiaggia",
     description: "Esperienza culinaria al tramonto a Bora Bora",
     image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-    price: "200"
+    price: ""
   },
   {
     title: "Hobbiton Movie Set",
     description: "Visita il set del Signore degli Anelli",
     image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
-    price: "160"
+    price: ""
   },
   {
     title: "Crociera al tramonto",
     description: "Navigazione nelle acque cristalline di Bora Bora",
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    price: "220"
+    price: ""
   }
 ];
 
