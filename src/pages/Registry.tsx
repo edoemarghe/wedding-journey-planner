@@ -111,7 +111,7 @@ const Registry = () => {
               <CardHeader>
                 <CardTitle className="text-xl">{activity.title}</CardTitle>
                 <CardDescription>{activity.description}</CardDescription>
-                <p className="mt-2 text-lg font-semibold text-wedding-gold">€{activity.price}</p>
+                <p className="mt-2 text-lg font-semibold text-wedding-gold">{activity.price}</p>
               </CardHeader>
               
               <CardFooter className="flex flex-col gap-4">
