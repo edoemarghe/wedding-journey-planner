@@ -24,6 +24,30 @@ const activities = [
     price: ""
   },
   {
+    title: "Vulcani del Parco Nazionale Hawaii",
+    description: "Esplorazione del Kilauea e dell'area vulcanica attiva della Big Island",
+    image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3",
+    price: ""
+  },
+  {
+    title: "Napali Coast via Kayak",
+    description: "Avventura in kayak lungo le spettacolari scogliere di Kauai",
+    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+    price: ""
+  },
+  {
+    title: "Waimea Canyon",
+    description: "Escursione nel Grand Canyon del Pacifico a Kauai",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    price: ""
+  },
+  {
+    title: "Mauna Kea Stargazing",
+    description: "Osservazione delle stelle dal più alto vulcano della Big Island",
+    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+    price: ""
+  },
+  {
     title: "Relax negli overwater bungalow",
     description: "Soggiorno esclusivo nelle iconiche ville sull'acqua di Bora Bora",
     image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716",
@@ -39,30 +63,6 @@ const activities = [
     title: "Visita ai villaggi Maori",
     description: "Scopri la cultura e le tradizioni indigene della Nuova Zelanda",
     image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
-    price: ""
-  },
-  {
-    title: "Foresta di Redwoods",
-    description: "Passeggiata tra gli alberi giganti di Rotorua",
-    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86",
-    price: ""
-  },
-  {
-    title: "Cena romantica sulla spiaggia",
-    description: "Esperienza culinaria al tramonto a Bora Bora",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-    price: ""
-  },
-  {
-    title: "Hobbiton Movie Set",
-    description: "Visita il set del Signore degli Anelli",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
-    price: ""
-  },
-  {
-    title: "Crociera al tramonto",
-    description: "Navigazione nelle acque cristalline di Bora Bora",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
     price: ""
   }
 ];
