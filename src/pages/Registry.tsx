@@ -24,6 +24,12 @@ const activities = [
     price: ""
   },
   {
+    title: "Tour dei vigneti di Marlborough",
+    description: "Degustazione di Sauvignon Blanc nella rinomata regione vinicola della Nuova Zelanda",
+    image: "https://images.unsplash.com/photo-1507934827917-67216903e264",
+    price: ""
+  },
+  {
     title: "Vulcani del Parco Nazionale Hawaii",
     description: "Esplorazione del Kilauea e dell'area vulcanica attiva della Big Island",
     image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3",
