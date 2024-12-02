@@ -26,8 +26,8 @@ const Registry = () => {
           <Gift className="mx-auto h-16 w-16 text-wedding-sage mb-6" />
           
           <p className="text-lg text-gray-600 mb-8">
-            La vostra presenza è il regalo più grande che potremmo desiderare.
-            Se desiderate contribuire al nostro viaggio di nozze, ecco alcune esperienze che potrete regalarci:
+            Il vostro affetto e la vostra presenza renderanno indimenticabile il nostro giorno speciale.
+            Per chi desiderasse contribuire alla realizzazione del nostro sogno di viaggio di nozze, abbiamo selezionato alcune esperienze uniche:
           </p>
         </div>
 
