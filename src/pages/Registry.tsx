@@ -8,7 +8,7 @@ const activities = [
   {
     title: "Overwater bungalows a Bora Bora",
     description: "Soggiorno esclusivo nelle iconiche ville sull'acqua di Bora Bora",
-    image: "public/lovable-uploads/d38c681c-2111-4905-bd1e-03662c9e86ce.png",
+    image: "https://images.unsplash.com/photo-1500276171741-bf88134af31a",
     price: ""
   },
   {
