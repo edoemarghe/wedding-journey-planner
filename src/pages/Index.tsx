@@ -124,7 +124,7 @@ const Index = () => {
         </div>
 
         <div className="mt-24">
-          <h2 className="section-title">I Momenti Più Belli</h2>
+          <h2 className="section-title">La Nostra Gallery</h2>
           <div className="columns-2 md:columns-3 lg:columns-4 gap-3 max-w-5xl mx-auto space-y-3">
             {photos.map((photo, index) => (
               <div 
