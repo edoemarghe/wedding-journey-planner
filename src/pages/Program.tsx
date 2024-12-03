@@ -58,7 +58,7 @@ const Program = () => {
                       </div>
                     </div>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.940762606543!2d15.292446776316787!3d37.06670667231091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cdd7804c0f79%3A0xb42e36432c75b8d0!2sSantuario%20Santa%20Lucia%20al%20Sepolcro!5e0!3m2!1sen!2sit!4v1709913433411!5m2!1sen!2sit"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.8876543210987!2d15.289651315957033!3d37.07304878870593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cea2f9d9df9d%3A0x179d506a93394d4b!2sSantuario%20di%20Santa%20Lucia%20al%20Sepolcro!5e0!3m2!1sen!2sit!4v1709913433411!5m2!1sen!2sit"
                       className="w-full h-64 rounded-lg mt-4"
                       style={{ border: 0 }}
                       allowFullScreen
