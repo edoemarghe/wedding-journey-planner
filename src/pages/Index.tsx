@@ -47,7 +47,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-wedding-cream">
       <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
-        <div className="flex items-center justify-center lg:justify-end px-8 lg:px-24 relative z-10 bg-wedding-cream/80 lg:bg-wedding-cream py-20 lg:py-0">
+        <div className="flex items-center justify-center lg:justify-end px-8 lg:px-24 relative z-10 bg-wedding-cream/70 lg:bg-wedding-cream py-20 lg:py-0">
           <div className="max-w-xl text-center lg:text-left lg:mr-8">
             <h1 className="text-6xl md:text-7xl font-display mb-6 text-gray-800 font-light">
               Edoardo & Margherita
@@ -79,12 +79,12 @@ const Index = () => {
           </div>
         </div>
         <div 
-          className="absolute lg:relative inset-0 lg:inset-auto z-0 lg:z-10 lg:translate-x-12 shadow-2xl before:content-[''] before:absolute before:inset-0 before:bg-black/10 lg:before:bg-transparent"
+          className="absolute lg:relative inset-0 lg:inset-auto z-0 lg:z-10 lg:translate-x-12 shadow-2xl before:content-[''] before:absolute before:inset-0 before:bg-black/5 lg:before:bg-transparent"
           style={{
             backgroundImage: "url('/lovable-uploads/1045a460-c1ae-4444-8ab0-f9134ffb03a6.png')",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            filter: "brightness(1.05) contrast(1.05)"
+            filter: "brightness(1.1) contrast(1.1)"
           }}
         />
       </div>
