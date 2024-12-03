@@ -73,8 +73,8 @@ const activities = [
   }
 ];
 
-const IBAN = "IT60X0542811101000000123456";
-const INTESTATARIO = "Mario Rossi e Maria Bianchi";
+const IBAN = "IT20T0329601601000067676058";
+const INTESTATARIO = "Lamacchia Edoardo Maria Beretta Zanoni Margherita";
 
 const Registry = () => {
   const { toast } = useToast();
