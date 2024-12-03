@@ -8,7 +8,7 @@ const Program = () => {
         <h1 className="text-4xl font-display text-gray-800 mb-6 text-center">Programma</h1>
         
         <p className="text-gray-700 text-center mb-12 max-w-2xl mx-auto">
-          In questa pagina troverete il programma dettagliato del nostro matrimonio. Eventuali variazioni di orari o informazioni utili aggiuntive verranno aggiornate qui, vi invitiamo quindi a consultare questa pagina periodicamente.
+          In questa pagina troverete il programma dettagliato del nostro matrimonio. Eventuali aggiornamenti o informazioni utili verranno aggiunti al programma che segue.
         </p>
         
         <div className="space-y-16">
