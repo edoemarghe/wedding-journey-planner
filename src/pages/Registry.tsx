@@ -8,13 +8,13 @@ const activities = [
   {
     title: "Overwater bungalows a Bora Bora",
     description: "Soggiorno esclusivo nelle iconiche ville sull'acqua di Bora Bora",
-    image: "https://images.unsplash.com/photo-1500276171741-bf88134af31a?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1500276171741-bf88134af31a?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Escursione al Monte Cook",
     description: "Trekking nel parco nazionale più alto della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&w=800&q=60",
     price: ""
   },
   {
@@ -26,49 +26,49 @@ const activities = [
   {
     title: "Tour dei vigneti di Marlborough",
     description: "Degustazione di Sauvignon Blanc nella rinomata regione vinicola della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1507934827917-67216903e264?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1507934827917-67216903e264?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Vulcani del Parco Nazionale Hawaii",
     description: "Esplorazione del Kilauea e dell'area vulcanica attiva della Big Island",
-    image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Napali Coast via Kayak",
     description: "Avventura in kayak lungo le spettacolari scogliere di Kauai",
-    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Waimea Canyon",
     description: "Escursione nel Grand Canyon del Pacifico a Kauai",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Mauna Kea Stargazing",
     description: "Osservazione delle stelle dal più alto vulcano della Big Island",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Relax negli overwater bungalow",
     description: "Soggiorno esclusivo nelle iconiche ville sull'acqua di Bora Bora",
-    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Kayak nelle acque turchesi",
     description: "Esplora le lagune di Bora Bora in kayak",
-    image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Visita ai villaggi Maori",
     description: "Scopri la cultura e le tradizioni indigene della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&w=800&q=60",
     price: ""
   }
 ];
