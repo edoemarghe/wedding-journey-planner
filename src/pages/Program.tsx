@@ -91,7 +91,7 @@ const Program = () => {
                       </div>
                     </div>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.5876486862387!2d15.255799376316126!3d37.05273567231798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cd505a3845cd%3A0x6e2e0ce7a7c4100e!2sDonna%20Coraly!5e0!3m2!1sen!2sit!4v1709913461436!5m2!1sen!2sit"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.5876486862387!2d15.233103!3d36.9972583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cd48c77c2897%3A0x7a1438841a32d9d7!2sDonna%20Coraly%20Country%20Boutique%20Hotel!5e0!3m2!1sen!2sit!4v1709913461436!5m2!1sen!2sit"
                       className="w-full h-64 rounded-lg mt-4"
                       style={{ border: 0 }}
                       allowFullScreen
