@@ -42,74 +42,56 @@ const Program = () => {
               
               {/* Ceremony */}
               <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
-                <div className="flex flex-col md:flex-row">
-                  <div className="md:w-1/2">
-                    <img 
-                      src="/lovable-uploads/825d7134-4f50-48ae-b6be-657b8f307002.png"
-                      alt="Santa Lucia al Sepolcro"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="md:w-1/2 p-6">
-                    <h3 className="text-xl font-display mb-4">Cerimonia</h3>
-                    <div className="space-y-4">
-                      <div className="flex items-center gap-2">
-                        <Clock className="text-wedding-sage" />
-                        <span>16:00</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <MapPin className="text-wedding-sage" />
-                        <div className="flex flex-col">
-                          <span>Santuario di Santa Lucia al Sepolcro</span>
-                          <span className="text-gray-600">Piazza Santa Lucia, 1, 96100 Siracusa SR, Italia</span>
-                        </div>
-                      </div>
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.8876543210987!2d15.289651315957033!3d37.07304878870593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cea2f9d9df9d%3A0x179d506a93394d4b!2sSantuario%20di%20Santa%20Lucia%20al%20Sepolcro!5e0!3m2!1sen!2sit!4v1709913433411!5m2!1sen!2sit"
-                        className="w-full h-64 rounded-lg"
-                        style={{ border: 0 }}
-                        allowFullScreen
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                      />
+                <div className="p-6">
+                  <h3 className="text-xl font-display mb-4">Cerimonia</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-2">
+                      <Clock className="text-wedding-sage" />
+                      <span>16:00</span>
                     </div>
+                    <div className="flex items-center gap-2">
+                      <MapPin className="text-wedding-sage" />
+                      <div className="flex flex-col">
+                        <span>Santuario di Santa Lucia al Sepolcro</span>
+                        <span className="text-gray-600">Piazza Santa Lucia, 1, 96100 Siracusa SR, Italia</span>
+                      </div>
+                    </div>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.8876543210987!2d15.289651315957033!3d37.07304878870593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cea2f9d9df9d%3A0x179d506a93394d4b!2sSantuario%20di%20Santa%20Lucia%20al%20Sepolcro!5e0!3m2!1sen!2sit!4v1709913433411!5m2!1sen!2sit"
+                      className="w-full h-64 rounded-lg"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    />
                   </div>
                 </div>
               </div>
 
               {/* Reception */}
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="flex flex-col md:flex-row">
-                  <div className="md:w-1/2">
-                    <img 
-                      src="/lovable-uploads/a09e51b5-ea84-45fe-aead-15ffc9b0565c.png"
-                      alt="Donna Coraly"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="md:w-1/2 p-6">
-                    <h3 className="text-xl font-display mb-4">Ricevimento</h3>
-                    <div className="space-y-4">
-                      <div className="flex items-center gap-2">
-                        <Clock className="text-wedding-sage" />
-                        <span>18:00</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <MapPin className="text-wedding-sage" />
-                        <div className="flex flex-col">
-                          <span>Donna Coraly</span>
-                          <span className="text-gray-600">Contrada, Traversa S. Michele, 96100 Siracusa SR, Italia</span>
-                        </div>
-                      </div>
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.5876486862387!2d15.233103!3d36.9972583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cd48c77c2897%3A0x7a1438841a32d9d7!2sDonna%20Coraly%20Country%20Boutique%20Hotel!5e0!3m2!1sen!2sit!4v1709913461436!5m2!1sen!2sit"
-                        className="w-full h-64 rounded-lg"
-                        style={{ border: 0 }}
-                        allowFullScreen
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                      />
+                <div className="p-6">
+                  <h3 className="text-xl font-display mb-4">Ricevimento</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-2">
+                      <Clock className="text-wedding-sage" />
+                      <span>18:00</span>
                     </div>
+                    <div className="flex items-center gap-2">
+                      <MapPin className="text-wedding-sage" />
+                      <div className="flex flex-col">
+                        <span>Donna Coraly</span>
+                        <span className="text-gray-600">Contrada, Traversa S. Michele, 96100 Siracusa SR, Italia</span>
+                      </div>
+                    </div>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.5876486862387!2d15.233103!3d36.9972583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cd48c77c2897%3A0x7a1438841a32d9d7!2sDonna%20Coraly%20Country%20Boutique%20Hotel!5e0!3m2!1sen!2sit!4v1709913461436!5m2!1sen!2sit"
+                      className="w-full h-64 rounded-lg"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    />
                   </div>
                 </div>
               </div>
