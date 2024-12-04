@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -9,6 +9,8 @@ import {
 } from "@/components/ui/drawer";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  
   const navLinks = [
     { to: "/program", label: "Programma" },
     { to: "/accommodation", label: "Alloggi" },
@@ -16,12 +18,21 @@ const Navbar = () => {
     { to: "/rsvp", label: "RSVP" },
   ];
 
+  const handleNavigation = (path: string) => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    navigate(path);
+  };
+
   const NavLinks = () => (
     <>
       {navLinks.map((link) => (
         <NavLink
           key={link.to}
           to={link.to}
+          onClick={(e) => {
+            e.preventDefault();
+            handleNavigation(link.to);
+          }}
           className={({ isActive }) => 
             `text-gray-600 hover:text-wedding-sage transition-colors duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:-bottom-1 after:left-0 after:bg-wedding-sage after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left ${
               isActive ? 'text-wedding-sage after:scale-x-100' : ''
@@ -40,6 +51,10 @@ const Navbar = () => {
         <div className="flex justify-between h-20 items-center">
           <NavLink 
             to="/" 
+            onClick={(e) => {
+              e.preventDefault();
+              handleNavigation('/');
+            }}
             className="font-display text-3xl text-gray-900 italic hover:text-wedding-sage transition-colors duration-300"
           >
             <span>Edo & Marghe</span>
