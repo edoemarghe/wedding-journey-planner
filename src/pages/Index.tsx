@@ -103,7 +103,7 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-display mb-4 text-wedding-sage">Come Ci Siamo Conosciuti</h3>
               <p className="text-lg leading-relaxed text-gray-700">
-                Tutto è iniziato una sera di settembre di sei anni fa, durante una cena tra amici organizzata da un'amica in comune. Quella sera eravamo seduti uno di fronte all'altro, senza sapere che quello sarebbe stato l'inizio di un'avventura indimenticabile.
+                Tutto è iniziato una sera di settembre di sei anni fa, durante una cena tra amici organizzata da un'amica in comune. Quella sera eravamo seduti uno di fronte all'altro, senza sapere che quello sarebbe stato l'inizio della nostra fantastica storia insieme.
               </p>
             </div>
             
