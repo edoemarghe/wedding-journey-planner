@@ -25,7 +25,7 @@ const activities = [
   },
   {
     title: "Tour dei vigneti di Marlborough",
-    description: "Degustazione di Sauvignon Blanc nella rinomata regione vinicola della Nuova Zelanda",
+    description: "Due giorni di degustazioni e relax tra i vigneti della Nuova Zelanda",
     image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&w=800&q=60",
     price: ""
   },
