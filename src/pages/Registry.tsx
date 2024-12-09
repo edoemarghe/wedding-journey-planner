@@ -38,7 +38,7 @@ const activities = [
   {
     title: "Tour dei vigneti di Marlborough",
     description: "Due giorni di degustazioni e relax tra i vigneti della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1559519529-0936e4058364?auto=format&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&w=800&q=60",
     price: ""
   },
   {
