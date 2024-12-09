@@ -36,8 +36,8 @@ export const activities = [
     price: ""
   },
   {
-    title: "Napali Coast via Kayak",
-    description: "Avventura in kayak lungo le spettacolari scogliere di Kauai",
+    title: "Un giorno in Napali Coast",
+    description: "Trekking lungo le scogliere di Kauai e notte sull'oceano",
     image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&w=800&q=60",
     price: ""
   },
