@@ -26,7 +26,7 @@ const Registry = () => {
           
           <p className="text-lg text-gray-600 mb-8">
             La vostra presenza è il regalo più grande che potremmo desiderare.
-            Se desiderate contribuire al nostro viaggio di nozze in Nuova Zelanda e Bora Bora,
+            Se desiderate contribuire al nostro viaggio di nozze in Nuova Zelanda, Hawaii e Bora Bora,
             potete scegliere una delle seguenti esperienze.
           </p>
         </div>
