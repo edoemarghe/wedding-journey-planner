@@ -56,7 +56,7 @@ export const activities = [
   {
     title: "3 giorni a Big Island Hawaii",
     description: "Snorkeling nella baia di Kealakekua e relax nelle sorgenti termali",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1551244072-5d12893278ab?auto=format&w=800&q=60",
     price: ""
   },
   {
@@ -68,7 +68,7 @@ export const activities = [
   {
     title: "Crociera nel Milford Sound",
     description: "Navigazione tra i maestosi fiordi della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&w=800&q=60",
     price: ""
   }
 ];
