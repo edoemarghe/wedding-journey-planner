@@ -48,27 +48,27 @@ export const activities = [
     price: ""
   },
   {
-    title: "Mauna Kea Stargazing",
-    description: "Osservazione delle stelle dal più alto vulcano della Big Island",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&w=800&q=60",
+    title: "Round the world ticket",
+    description: "Biglietti aerei per girare il mondo con tappe personalizzate",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&w=800&q=60",
     price: ""
   },
   {
-    title: "Relax negli overwater bungalow",
-    description: "Soggiorno esclusivo nelle iconiche ville sull'acqua di Bora Bora",
+    title: "3 giorni a Big Island Hawaii",
+    description: "Snorkeling Kealakekua Bay, hot springs",
+    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&w=800&q=60",
+    price: ""
+  },
+  {
+    title: "2 days at Wanaka & Mount Cook",
+    description: "Trekking Roys Peak, stargazing at Mount Cook",
+    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&w=800&q=60",
+    price: ""
+  },
+  {
+    title: "Milford Sound cruise",
+    description: "Crociera tra i fiordi",
     image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&w=800&q=60",
-    price: ""
-  },
-  {
-    title: "Kayak nelle acque turchesi",
-    description: "Esplora le lagune di Bora Bora in kayak",
-    image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&w=800&q=60",
-    price: ""
-  },
-  {
-    title: "Visita ai villaggi Maori",
-    description: "Scopri la cultura e le tradizioni indigene della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&w=800&q=60",
     price: ""
   }
 ];
