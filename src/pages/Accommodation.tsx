@@ -51,16 +51,6 @@ const Accommodation = () => {
             </div>
           ))}
         </div>
-
-        <div className="mt-12 text-center">
-          <p className="text-gray-600">
-            Per assistenza con le prenotazioni, non esitate a contattarci:
-            <br />
-            <a href="mailto:example@email.com" className="text-wedding-gold hover:text-wedding-gold/80">
-              example@email.com
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   );
