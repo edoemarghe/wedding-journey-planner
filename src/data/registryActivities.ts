@@ -20,7 +20,7 @@ export const activities = [
   {
     title: "Tour in elicottero e giornata sugli sci",
     description: "Vista mozzafiato sulle vette innevate della Nuova Zelanda e discesa sulle piste da sci più spettacolari",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&w=800&q=60",
     price: ""
   },
   {
