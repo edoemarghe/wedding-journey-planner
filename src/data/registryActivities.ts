@@ -18,9 +18,9 @@ export const activities = [
     price: ""
   },
   {
-    title: "Tour in elicottero sui ghiacciai",
-    description: "Vista mozzafiato sui ghiacciai della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?auto=format&w=800&q=60",
+    title: "Tour in elicottero e giornata sugli sci",
+    description: "Vista mozzafiato sulle vette innevate della Nuova Zelanda e discesa sulle piste da sci più spettacolari",
+    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&w=800&q=60",
     price: ""
   },
   {
