@@ -4,7 +4,7 @@ const Accommodation = () => {
   const accommodations = [
     {
       name: "Agriturismo Antica Gebbia",
-      description: "Per prenotare chiamare Laura Cannizzo 3397272105 e dire che prenotate per il matrimonio del 5 Luglio, vi verrà applicato 10% di sconto.",
+      description: "Per prenotazioni, vi preghiamo di contattare Laura Cannizzo al numero 339 727 2105. Menzionando che state prenotando per il matrimonio del 5 Luglio, avrete diritto ad uno sconto del 10%.",
       distance: "8 minuti dalla location",
       link: "https://anticagebbia.it/"
     },
