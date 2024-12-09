@@ -9,18 +9,10 @@ const Accommodation = () => {
       link: "https://anticagebbia.it/"
     },
     {
-      name: "B&B Example 2",
-      description: "Caratteristico B&B con vista panoramica",
-      distance: "10 minuti dalla location",
-      price: "da €80/notte",
-      link: "#"
-    },
-    {
-      name: "Resort Example 3",
-      description: "Resort di lusso con spa",
-      distance: "15 minuti dalla location",
-      price: "da €200/notte",
-      link: "#"
+      name: "Albatros Hotel",
+      description: "Per prenotazioni, vi preghiamo di scrivere all'indirizzo **booking@albatroshotel.siracusa.it**. Menzionando che siete ospiti all'\"evento sposalizio 4/6 Luglio\" avrete diritto ad uno sconto del 10%.",
+      distance: "8 minuti dalla location",
+      link: "https://www.albatroshotel.siracusa.it/en/index"
     }
   ];
 
