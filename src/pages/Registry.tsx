@@ -12,6 +12,18 @@ const activities = [
     price: ""
   },
   {
+    title: "Snorkeling con razze e squali",
+    description: "Immersione nelle acque cristalline di Bora Bora per nuotare con razze e squali della barriera corallina",
+    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&w=800&q=60",
+    price: ""
+  },
+  {
+    title: "Crociera al tramonto nella laguna",
+    description: "Romantica crociera al tramonto nella spettacolare laguna di Bora Bora",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&w=800&q=60",
+    price: ""
+  },
+  {
     title: "Escursione al Monte Cook",
     description: "Trekking nel parco nazionale più alto della Nuova Zelanda",
     image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&w=800&q=60",
