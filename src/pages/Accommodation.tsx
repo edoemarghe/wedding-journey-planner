@@ -4,7 +4,7 @@ const Accommodation = () => {
   const accommodations = [
     {
       name: "Agriturismo Antica Gebbia",
-      description: "Per prenotazioni, vi preghiamo di contattare Laura Cannizzo al numero 339 727 2105 oppure scrivere all'indirizzo info@anticagebbia.it. Menzionando che state prenotando per il matrimonio del 5 Luglio, avrete diritto ad uno sconto del 10%.",
+      description: "Per prenotazioni, vi preghiamo di contattare Laura Cannizzo al numero 339 727 2105 oppure scrivere all'indirizzo **info@anticagebbia.it**. Menzionando che state prenotando per il matrimonio del 5 Luglio, avrete diritto ad uno sconto del 10%.",
       distance: "8 minuti dalla location",
       link: "https://anticagebbia.it/"
     },
@@ -33,7 +33,7 @@ const Accommodation = () => {
           {accommodations.map((accommodation, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">
               <h2 className="text-xl font-display mb-2">{accommodation.name}</h2>
-              <p className="text-gray-600 mb-4">{accommodation.description}</p>
+              <p className="text-gray-600 mb-4" dangerouslySetInnerHTML={{ __html: accommodation.description.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} />
               <div className="space-y-2 mb-4">
                 <p className="text-sm">{accommodation.distance}</p>
                 {accommodation.price && <p className="font-semibold">{accommodation.price}</p>}
