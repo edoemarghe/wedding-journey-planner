@@ -50,24 +50,24 @@ export const activities = [
   {
     title: "Round the world ticket",
     description: "Biglietti aerei per girare il mondo con tappe personalizzate",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "3 giorni a Big Island Hawaii",
-    description: "Snorkeling Kealakekua Bay, hot springs",
+    description: "Snorkeling nella baia di Kealakekua e relax nelle sorgenti termali",
     image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&w=800&q=60",
     price: ""
   },
   {
-    title: "2 days at Wanaka & Mount Cook",
-    description: "Trekking Roys Peak, stargazing at Mount Cook",
+    title: "2 giorni a Wanaka e Monte Cook",
+    description: "Trekking sul Roys Peak e osservazione delle stelle al Monte Cook",
     image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&w=800&q=60",
     price: ""
   },
   {
-    title: "Milford Sound cruise",
-    description: "Crociera tra i fiordi",
+    title: "Crociera nel Milford Sound",
+    description: "Navigazione tra i maestosi fiordi della Nuova Zelanda",
     image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&w=800&q=60",
     price: ""
   }
