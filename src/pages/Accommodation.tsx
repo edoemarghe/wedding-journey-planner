@@ -3,11 +3,10 @@ import { ExternalLink } from "lucide-react";
 const Accommodation = () => {
   const accommodations = [
     {
-      name: "Hotel Example 1",
-      description: "Hotel 4 stelle nel centro storico",
-      distance: "5 minuti dalla location",
-      price: "da €120/notte",
-      link: "#"
+      name: "Agriturismo Antica Gebbia",
+      description: "Per prenotare chiamare Laura Cannizzo 3397272105 e dire che prenotate per il matrimonio del 5 Luglio, vi verrà applicato 10% di sconto.",
+      distance: "8 minuti dalla location",
+      link: "https://anticagebbia.it/"
     },
     {
       name: "B&B Example 2",
@@ -37,7 +36,7 @@ const Accommodation = () => {
               <p className="text-gray-600 mb-4">{accommodation.description}</p>
               <div className="space-y-2 mb-4">
                 <p className="text-sm">{accommodation.distance}</p>
-                <p className="font-semibold">{accommodation.price}</p>
+                {accommodation.price && <p className="font-semibold">{accommodation.price}</p>}
               </div>
               <a
                 href={accommodation.link}
@@ -45,7 +44,7 @@ const Accommodation = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-wedding-gold hover:text-wedding-gold/80"
               >
-                Prenota ora
+                Visita il sito
                 <ExternalLink className="ml-2 h-4 w-4" />
               </a>
             </div>
