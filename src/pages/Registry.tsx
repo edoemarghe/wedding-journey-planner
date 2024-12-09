@@ -32,13 +32,13 @@ const activities = [
   {
     title: "Tour in elicottero sui ghiacciai",
     description: "Vista mozzafiato sui ghiacciai della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1503601350100-30923771861d?auto=format&w=800&q=60",
     price: ""
   },
   {
     title: "Tour dei vigneti di Marlborough",
     description: "Due giorni di degustazioni e relax tra i vigneti della Nuova Zelanda",
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1559519529-0936e4058364?auto=format&w=800&q=60",
     price: ""
   },
   {
