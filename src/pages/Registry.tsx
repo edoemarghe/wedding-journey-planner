@@ -20,7 +20,7 @@ const activities = [
   {
     title: "Tour in elicottero sui ghiacciai",
     description: "Vista mozzafiato sui ghiacciai della Nuova Zelanda",
-    image: "public/lovable-uploads/99489dfe-6f1a-47c4-8073-fe2a8f7a14a1.png",
+    image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f?auto=format&w=800&q=60",
     price: ""
   },
   {
