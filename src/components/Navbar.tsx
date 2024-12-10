@@ -66,16 +66,20 @@ const Navbar = () => {
 
           <div className="md:hidden">
             <Drawer direction="top">
-              <DrawerTrigger asChild>
-                <Button variant="ghost" size="icon" className="hover:bg-wedding-sage/10">
-                  <Menu className="h-6 w-6" />
-                </Button>
-              </DrawerTrigger>
-              <DrawerContent>
-                <div className="flex flex-col items-center space-y-6 py-8 bg-wedding-cream">
-                  <NavLinks />
-                </div>
-              </DrawerContent>
+              {({ open, setOpen }) => (
+                <>
+                  <DrawerTrigger asChild>
+                    <Button variant="ghost" size="icon" className="hover:bg-wedding-sage/10">
+                      <Menu className="h-6 w-6" />
+                    </Button>
+                  </DrawerTrigger>
+                  <DrawerContent>
+                    <div className="flex flex-col items-center space-y-6 py-8 bg-wedding-cream">
+                      <NavLinks onNavigate={() => setOpen(false)} />
+                    </div>
+                  </DrawerContent>
+                </>
+              )}
             </Drawer>
           </div>
         </div>
