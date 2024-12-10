@@ -3,7 +3,6 @@ import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
   DrawerTrigger,
 } from "@/components/ui/drawer";
@@ -23,7 +22,7 @@ const Navbar = () => {
     navigate(path);
   };
 
-  const NavLinks = () => (
+  const NavLinks = ({ onNavigate }: { onNavigate?: (path: string) => void }) => (
     <>
       {navLinks.map((link) => (
         <NavLink
@@ -32,6 +31,7 @@ const Navbar = () => {
           onClick={(e) => {
             e.preventDefault();
             handleNavigation(link.to);
+            if (onNavigate) onNavigate(link.to);
           }}
           className={({ isActive }) => 
             `text-gray-600 hover:text-wedding-sage transition-colors duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:-bottom-1 after:left-0 after:bg-wedding-sage after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left ${
@@ -65,7 +65,7 @@ const Navbar = () => {
           </div>
 
           <div className="md:hidden">
-            <Drawer>
+            <Drawer direction="top">
               <DrawerTrigger asChild>
                 <Button variant="ghost" size="icon" className="hover:bg-wedding-sage/10">
                   <Menu className="h-6 w-6" />
@@ -74,11 +74,6 @@ const Navbar = () => {
               <DrawerContent>
                 <div className="flex flex-col items-center space-y-6 py-8 bg-wedding-cream">
                   <NavLinks />
-                  <DrawerClose asChild>
-                    <Button variant="ghost" className="hover:bg-wedding-sage/10">
-                      Chiudi
-                    </Button>
-                  </DrawerClose>
                 </div>
               </DrawerContent>
             </Drawer>
