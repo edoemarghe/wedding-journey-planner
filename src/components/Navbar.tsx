@@ -6,9 +6,11 @@ import {
   DrawerContent,
   DrawerTrigger,
 } from "@/components/ui/drawer";
+import { useState } from "react";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const [isOpen, setIsOpen] = useState(false);
   
   const navLinks = [
     { to: "/program", label: "Programma" },
@@ -20,6 +22,7 @@ const Navbar = () => {
   const handleNavigation = (path: string) => {
     window.scrollTo({ top: 0, behavior: 'instant' });
     navigate(path);
+    setIsOpen(false); // Close drawer after navigation
   };
 
   const NavLinks = ({ onNavigate }: { onNavigate?: (path: string) => void }) => (
@@ -65,7 +68,7 @@ const Navbar = () => {
           </div>
 
           <div className="md:hidden">
-            <Drawer direction="top">
+            <Drawer open={isOpen} onOpenChange={setIsOpen}>
               <DrawerTrigger asChild>
                 <Button variant="ghost" size="icon" className="hover:bg-wedding-sage/10">
                   <Menu className="h-6 w-6" />
