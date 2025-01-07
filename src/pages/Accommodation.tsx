@@ -13,6 +13,12 @@ const Accommodation = () => {
       description: "Per prenotazioni, vi preghiamo di scrivere all'indirizzo **booking@albatroshotel.siracusa.it**. Menzionando che siete ospiti all'\"evento sposalizio 4/6 Luglio\" avrete diritto ad uno sconto del 10%.",
       distance: "8 minuti dalla location",
       link: "https://www.albatroshotel.siracusa.it/en/index"
+    },
+    {
+      name: "Eureka Palace Hotel",
+      description: "Per prenotazioni chiamare Tel **+39 0931 710133** oppure scrivere all'indirizzo **info@eurekapalace.it** specificando \"Nozze Margherita Beretta Zanoni del 05 luglio 2025\".",
+      distance: "13 minuti dalla location",
+      link: "https://www.eurekapalace.it/"
     }
   ];
 
