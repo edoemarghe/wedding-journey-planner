@@ -16,7 +16,7 @@ const Accommodation = () => {
     },
     {
       name: "Eureka Palace Hotel",
-      description: "Per prenotazioni chiamare Tel **+39 0931 710133** oppure scrivere all'indirizzo **info@eurekapalace.it** specificando \"Nozze Margherita Beretta Zanoni del 05 luglio 2025\". Menzionando queste specifiche avrete diritto ad uno sconto del 15%.",
+      description: "Per prenotazioni chiamare Tel **+39 0931 710133** oppure scrivere all'indirizzo **info@eurekapalace.it** specificando \"Nozze Margherita Beretta Zanoni del 05 luglio 2025\" avrete diritto ad uno sconto del 15%.",
       distance: "13 minuti dalla location",
       link: "https://www.eurekapalace.it/"
     }
