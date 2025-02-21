@@ -52,7 +52,7 @@ const Program = () => {
                     </div>
                     <div className="flex items-center gap-2">
                       <MapPin className="text-wedding-sage" />
-                      <span>Pickup dai luoghi di alloggio consigliati</span>
+                      <span>Servizio navetta riservato agli ospiti che alloggiano nelle strutture consigliate</span>
                     </div>
                   </div>
                 </div>
