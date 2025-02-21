@@ -87,7 +87,7 @@ const Program = () => {
               </div>
 
               {/* Reception */}
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
                 <div className="p-6">
                   <h3 className="text-xl font-display mb-4">Ricevimento</h3>
                   <div className="space-y-4">
@@ -110,6 +110,23 @@ const Program = () => {
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
                     />
+                  </div>
+                </div>
+              </div>
+
+              {/* Return Transfer */}
+              <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="p-6">
+                  <h3 className="text-xl font-display mb-4">Transfer di Rientro</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-2">
+                      <Clock className="text-wedding-sage" />
+                      <span>00:30 - 04:30</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <MapPin className="text-wedding-sage" />
+                      <span>Servizio navette continuativo verso le strutture consigliate</span>
+                    </div>
                   </div>
                 </div>
               </div>
