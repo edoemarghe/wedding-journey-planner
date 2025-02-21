@@ -1,3 +1,4 @@
+
 import { CalendarDays, Clock, MapPin } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
@@ -40,6 +41,23 @@ const Program = () => {
             <div className="ml-6">
               <h2 className="text-2xl font-display text-wedding-sage mb-4">Sabato 5 Luglio 2025</h2>
               
+              {/* Bus Pickup */}
+              <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+                <div className="p-6">
+                  <h3 className="text-xl font-display mb-4">Transfer</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-2">
+                      <Clock className="text-wedding-sage" />
+                      <span>15:00</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <MapPin className="text-wedding-sage" />
+                      <span>Pickup dai luoghi di alloggio consigliati</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Ceremony */}
               <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
                 <div className="p-6">
