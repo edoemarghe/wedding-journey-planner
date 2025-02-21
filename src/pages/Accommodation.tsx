@@ -28,7 +28,7 @@ const Accommodation = () => {
         <h1 className="section-title">Dove Alloggiare</h1>
         
         <p className="max-w-3xl mx-auto text-center text-gray-700 mb-12 font-body italic">
-          Siete naturalmente liberi di scegliere la sistemazione che preferite per il vostro soggiorno. Tuttavia, se opterete per una delle strutture qui sotto indicate, saremo lieti di agevolare il vostro soggiorno fornendo un servizio di trasferimento sia per la chiesa che per la location dei festeggiamenti.
+          Siete naturalmente liberi di scegliere la sistemazione che preferite per il vostro soggiorno. Tuttavia, se opterete per una delle strutture qui sotto indicate, saremo lieti di agevolare il vostro soggiorno fornendo un **servizio di trasferimento** sia per la chiesa che per la location dei festeggiamenti.
         </p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
