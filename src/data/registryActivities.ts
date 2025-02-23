@@ -74,7 +74,7 @@ export const activities = [
   },
   {
     title: "Cena stellata a Sydney",
-    description: "Esperienza gastronomica nel ristorante stellato Quay con vista sulla Opera House",
+    description: "Esperienza gastronomica nel ristorante Firedoor con vista sulla città",
     image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&w=800&q=60",
     price: ""
   }
