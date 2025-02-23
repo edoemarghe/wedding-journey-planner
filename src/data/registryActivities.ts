@@ -1,3 +1,4 @@
+
 export const activities = [
   {
     title: "Overwater bungalows a Bora Bora",
@@ -69,6 +70,12 @@ export const activities = [
     title: "Crociera nel Milford Sound",
     description: "Navigazione tra i maestosi fiordi della Nuova Zelanda",
     image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&w=800&q=60",
+    price: ""
+  },
+  {
+    title: "Cena stellata a Sydney",
+    description: "Esperienza gastronomica nel ristorante stellato Quay con vista sulla Opera House",
+    image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&w=800&q=60",
     price: ""
   }
 ];
