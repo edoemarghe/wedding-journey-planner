@@ -151,15 +151,27 @@ const Program = () => {
               <h2 className="text-2xl font-display text-wedding-sage mb-4">Domenica 6 Luglio 2025</h2>
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="p-6">
-                  <div className="space-y-2">
+                  <h3 className="text-xl font-display mb-4">Hangover Brunch</h3>
+                  <div className="space-y-4">
                     <div className="flex items-center gap-2">
-                      <CalendarDays className="text-wedding-sage" />
-                      <span>Hangover Brunch</span>
+                      <Clock className="text-wedding-sage" />
+                      <span>12:30</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <MapPin className="text-wedding-sage" />
-                      <span className="italic">Location da definire</span>
+                      <div className="flex flex-col">
+                        <span>Donna Coraly</span>
+                        <span className="text-gray-600">Contrada, Traversa S. Michele, 96100 Siracusa SR, Italia</span>
+                      </div>
                     </div>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.5876486862387!2d15.233103!3d36.9972583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313cd48c77c2897%3A0x7a1438841a32d9d7!2sDonna%20Coraly%20Country%20Boutique%20Hotel!5e0!3m2!1sen!2sit!4v1709913461436!5m2!1sen!2sit"
+                      className="w-full h-64 rounded-lg"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    />
                   </div>
                 </div>
               </div>
