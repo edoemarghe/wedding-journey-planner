@@ -1,4 +1,4 @@
-import { Clock, MapPin } from "lucide-react";
+import { Clock, MapPin, Bath } from "lucide-react";
 
 const Program = () => {
   return (
@@ -195,7 +195,7 @@ const Program = () => {
                       </div>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Pool className="text-wedding-sage" />
+                      <Bath className="text-wedding-sage" />
                       <span>Pomeriggio di relax in piscina</span>
                     </div>
                   </div>
