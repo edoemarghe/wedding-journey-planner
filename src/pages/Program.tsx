@@ -1,5 +1,4 @@
 import { CalendarDays, Clock, MapPin, Pool } from "lucide-react";
-import { Separator } from "@/components/ui/separator";
 
 const Program = () => {
   return (
