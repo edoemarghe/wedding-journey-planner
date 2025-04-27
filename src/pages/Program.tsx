@@ -1,4 +1,4 @@
-import { CalendarDays, Clock, MapPin } from "lucide-react";
+import { CalendarDays, Clock, MapPin, Pool } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 const Program = () => {
@@ -172,6 +172,30 @@ const Program = () => {
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
                     />
+                  </div>
+                </div>
+              </div>
+
+              {/* Pool Activity */}
+              <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="p-6">
+                  <h3 className="text-xl font-display mb-4">Relax in Piscina</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-2">
+                      <Clock className="text-wedding-sage" />
+                      <span>14:00</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <MapPin className="text-wedding-sage" />
+                      <div className="flex flex-col">
+                        <span>Donna Coraly</span>
+                        <span className="text-gray-600">Contrada, Traversa S. Michele, 96100 Siracusa SR, Italia</span>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Pool className="text-wedding-sage" />
+                      <span>Pomeriggio di relax in piscina</span>
+                    </div>
                   </div>
                 </div>
               </div>
