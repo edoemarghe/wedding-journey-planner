@@ -1,3 +1,4 @@
+
 import { Clock, MapPin, Bath } from "lucide-react";
 
 const Program = () => {
@@ -56,14 +57,41 @@ const Program = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-display mb-4">Transfer</h3>
                   <div className="space-y-4">
-                    <div className="flex items-center gap-2">
-                      <Clock className="text-wedding-sage" />
-                      <span>15:00</span>
+                    <p className="text-gray-700">
+                      Le navette sono riservate a chi alloggia nelle strutture consigliate e partiranno con questi orari:
+                    </p>
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <ul className="space-y-2">
+                        <li className="flex items-center gap-2">
+                          <Clock className="text-wedding-sage w-4 h-4" />
+                          <span className="font-medium">Donna Coraly:</span>
+                          <span>15:30</span>
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <Clock className="text-wedding-sage w-4 h-4" />
+                          <span className="font-medium">Albatros:</span>
+                          <span>15:30</span>
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <Clock className="text-wedding-sage w-4 h-4" />
+                          <span className="font-medium">Antica Gebbia:</span>
+                          <span>15:30</span>
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <Clock className="text-wedding-sage w-4 h-4" />
+                          <span className="font-medium">Casa di Melo:</span>
+                          <span>15:15</span>
+                        </li>
+                        <li className="flex items-center gap-2">
+                          <Clock className="text-wedding-sage w-4 h-4" />
+                          <span className="font-medium">Eureka:</span>
+                          <span>15:15</span>
+                        </li>
+                      </ul>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <MapPin className="text-wedding-sage" />
-                      <span>Servizio navetta riservato agli ospiti che alloggiano nelle strutture consigliate</span>
-                    </div>
+                    <p className="text-gray-700 mt-4">
+                      Dopo la chiesa, le stesse navette vi porteranno al ricevimento a Donna Coraly
+                    </p>
                   </div>
                 </div>
               </div>
