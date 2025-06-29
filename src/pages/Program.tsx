@@ -1,4 +1,5 @@
 
+
 import { Clock, MapPin, Bath } from "lucide-react";
 
 const Program = () => {
@@ -182,7 +183,7 @@ const Program = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-2">
                       <Clock className="text-wedding-sage" />
-                      <span>12:00</span>
+                      <span>11:30</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <MapPin className="text-wedding-sage" />
@@ -238,3 +239,4 @@ const Program = () => {
 };
 
 export default Program;
+
